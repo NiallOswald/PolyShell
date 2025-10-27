@@ -21,7 +21,8 @@
 #
 
 
+from .charshape import BENCHMARKS as CHAR_BENCH
 from .rdp import BENCHMARKS as RDP_BENCH
 from .vw import BENCHMARKS as VW_BENCH
 
-BENCHMARKS = [*VW_BENCH, *RDP_BENCH]
+BENCHMARKS = [*VW_BENCH, *RDP_BENCH, *CHAR_BENCH]
